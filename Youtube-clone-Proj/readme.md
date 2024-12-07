@@ -27,7 +27,7 @@ During the creation of this project, I learned and applied several web developme
 
 ## 📸 Screenshots
 
-![YT-Clone Screenshot](https://your-image-link.com)  
+![YT-Clone Screenshot](image.png)  
 *(Replace with your actual screenshot link)*
 
 ## 🔗 Project Link
