@@ -1,0 +1,22 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: roboto,arial;
+  
+}
+body{
+
+    padding-top: 110px;
+    padding-left: 115px;
+    padding-right: 20px;
+    background-color: rgb(237, 237, 237)
+}
+
+@media (min-width:1200.1px){
+
+body{
+    padding-left: 220px;
+}
+
+
+}

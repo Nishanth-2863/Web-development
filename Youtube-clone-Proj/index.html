@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube clone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video-grid.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="icon" type="image/x-icon" href="icons/youtube.png">
+
+  </head>
+
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="section-one">
+        <img class="menu" src="icons/hamburger-menu.svg" />
+        <img class="yt-logo" src="icons/youtube-logo.svg" />
+      </div>
+
+      <div class="section-two">
+        <input class="searchbox" type="text" placeholder="Search" />
+        <button class="search-btn">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-btn">
+          <img class="mic-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="section-three">
+        <div class="upload-container">
+          <img class="upload" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="yt-apps-container">
+          <img class="yt-apps" src="icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notification-bell">
+          <img class="notification" src="icons/notifications.svg" />
+          <div class="notification-count">6</div>
+          <div class="tooltip">Notification</div>
+        </div>
+
+        <img class="profile-pic" src="icons/penguin_4161529.png" />
+      </div>
+    </nav>
+
+    <!-- sidebar-->
+    <aside class="sidebar">
+      <div class="side-options">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="side-options">
+        <img src="icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="side-options">
+        <img src="icons/subscriptions.svg" />
+        <div>subscriptions</div>
+      </div>
+      <div class="side-options">
+        <img src="icons/originals.svg" />
+        <div>originals</div>
+      </div>
+      <div class="side-options">
+        <img src="icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="side-options">
+        <img src="icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </aside>
+
+    <!--video grids-->
+    <main>
+
+   
+    <div class="overall-grid-container">
+      <div class="container">
+        <div class="vid-thumbnail">
+          <img class="thumbnail" src="thumbnails/thumbnail-one.jpg" />
+          <div class="video-time-stamp">15:20</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-logo">
+            <img class="logo" src="channel-images/prof-one.jpg" />
+          </div>
+          <div class="video-description">
+            <p class="video-title">
+              India's lethal bowling attack | The Test | Prime Video India
+            </p>
+            <p class="channel-name">Prime video india</p>
+            <p class="video-views">764k views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!--second-->
+      <div class="container">
+        <div class="vid-thumbnail">
+          <img class="thumbnail" src="thumbnails/thumbnail-two.jpg" />
+          <div class="video-time-stamp">8:20</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-logo">
+            <img class="logo" src="channel-images/prof-two.jpg" />
+          </div>
+          <div class="video-description">
+            <p class="video-title">
+              Highlights: Australia v India,MCG | ODI Tri-series 2014-15
+            </p>
+            <p class="channel-name">criket.com.au</p>
+            <p class="video-views">56M views &#183; 9 year ago</p>
+          </div>
+        </div>
+      </div>
+      <!--third-->
+      <div class="container">
+        <div class="vid-thumbnail">
+          <img class="thumbnail" src="thumbnails/thumbnail-three.jpg" />
+          <div class="video-time-stamp">7:02</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-logo">
+            <img class="logo" src="channel-images/prof-three.jpg" />
+          </div>
+          <div class="video-description">
+            <p class="video-title">
+              Livingstone Smashes Stunning 87 | Highlights - England v
+              Australia..
+            </p>
+            <p class="channel-name">England & Wales Cricket Board</p>
+            <p class="video-views">4M views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+      <!--four-->
+      <div class="container">
+        <div class="vid-thumbnail">
+          <img class="thumbnail" src="thumbnails/thumbnail-four.jpg" />
+          <div class="video-time-stamp">6:20</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-logo">
+            <img class="logo" src="channel-images/prof-four.jpg" />
+          </div>
+          <div class="video-description">
+            <p class="video-title">
+              Carnage with the ball | The best Deliveries of T20WC 2024
+            </p>
+            <p class="channel-name">ICC</p>
+            <p class="video-views">2.5M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+      <!--five-->
+
+      <div class="container">
+        <div class="vid-thumbnail">
+          <img class="thumbnail" src="thumbnails/thumbnail-five.jpg" />
+          <div class="video-time-stamp">15:02</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-logo">
+            <img class="logo" src="channel-images/prof-five.jpg" />
+          </div>
+          <div class="video-description">
+            <p class="video-title">
+              1st ODI | Highlights | Australia Tour Of England | 19th September
+              2024
+            </p>
+            <p class="channel-name">Sony LIV</p>
+            <p class="video-views">910K views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- six-->
+
+      <div class="container">
+        <div class="vid-thumbnail">
+          <img class="thumbnail" src="thumbnails/thumbnail-six.jpg" />
+          <div class="video-time-stamp">6:00</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-logo">
+            <img class="logo" src="channel-images/prof-four.jpg" />
+          </div>
+          <div class="video-description">
+            <p class="video-title">
+              Glenn Maxwell produces one of the greatest ODI knocks of all-time
+              | CWC23
+            </p>
+            <p class="channel-name">ICC</p>
+            <p class="video-views">9.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+<!--seven-->
+
+<div class="container">
+    <div class="vid-thumbnail">
+      <img class="thumbnail" src="thumbnails/thumbnail-seven.jpg" />
+      <div class="video-time-stamp">6:00</div>
+    </div>
+    <div class="video-info">
+      <div class="channel-logo">
+        <img class="logo" src="channel-images/prof-two.jpg" />
+      </div>
+      <div class="video-description">
+        <p class="video-title">
+            From the Vault: Michael Clarke's magic over in Sydney
+        </p>
+        <p class="channel-name">criket.com.au</p>
+        <p class="video-views">11.5M views &#183; 9 years ago</p>
+      </div>
+    </div>
+  </div>
+
+<!---eight-->
+
+<div class="container">
+    <div class="vid-thumbnail">
+      <img class="thumbnail" src="thumbnails/thumbnail-eight.webp" />
+      <div class="video-time-stamp">6:00</div>
+    </div>
+    <div class="video-info">
+      <div class="channel-logo">
+        <img class="logo" src="channel-images/prof-three.jpg" />
+      </div>
+      <div class="video-description">
+        <p class="video-title">
+            Brilliant Bumrah Puts India On Top | Highlights | England v India - Day 2 | LV= Insurance Test 2022
+        </p>
+        <p class="channel-name">England & Wales Cricket Board</p>
+        <p class="video-views">6M views &#183;  2 years ago</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    </div>
+  </main>
+  </body>
+</html>
