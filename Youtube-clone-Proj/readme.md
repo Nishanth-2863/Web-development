@@ -30,12 +30,8 @@ During the creation of this project, I learned and applied several web developme
 ![YT-Clone Screenshot](image.png)  
 *(Replace with your actual screenshot link)*
 
-## 🔗 Project Link
+## 🔗 Website Link
 
-[Click here to view the project on GitHub](https://nishanth-2863.github.io/Web-development-Projects/Youtube-clone-Proj/index.html)
-##  ✨ Acknowledgments
-I would like to express my gratitude to the following for their invaluable contributions and resources:
-
-Supersimpledev(https://www.youtube.com/c/supersimpledev) for the amazing HTML & CSS course that helped me learn key web development concepts like Flexbox, Grid, and Responsive Design.
+[Click here to view the website](https://nishanth-2863.github.io/Web-development-Projects/Youtube-clone-Proj/index.html)
 
 
