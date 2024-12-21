@@ -5,7 +5,7 @@ This project is a simple, responsive User Interface (UI) for an Edutech platform
 
 ## ✨ Features
 
-- 📱 **Responsive Design:** Optimized for various screen sizes, including mobile, tablet, and desktop.
+- 📱 **Basic Responsive Design:** Optimized for various screen sizes, including mobile and desktop.
 - 🎨 **Clean Layout:** A minimalistic design for an educational platform.
 - 🧩 **Basic Components:** Includes headers, navigation, content sections, and footers.
 - 🔧 **Predefined Design Elements:**
@@ -21,13 +21,11 @@ This project is a simple, responsive User Interface (UI) for an Edutech platform
 ## 🖼️ Screenshots
 
 ### 🖥️ Desktop View
-![Desktop Screenshot](screenshots/desktop-view.png)
+![Desktop Screenshot](desktop.png)
 
 ### 📱 Mobile View
-![Mobile Screenshot](screenshots/mobile-view.png)
+![Mobile Screenshot](mobile.png)
 
-### 📊 Tablet View
-![Tablet Screenshot](screenshots/tablet-view.png)
 
 ## 🛠️ Technologies Used
 
